@@ -27,9 +27,3 @@ The script utilizes the NumPy library to efficiently handle array operations. Th
   price_per_unit = np.array([20, 30, 15])
   
   total_sales = unit_sold * price_per_unit
-
-
-## Result
-array([[1000, 1800, 375],
-       [200, 390, 75],
-       [800, 2100, 780]])
