@@ -1,4 +1,4 @@
-# total-sales-in-every-month
+# Total Sales In Every Month
 Total Sales In Every Month using NumPy
 
 # Divine Flowers - Monthly Sales Calculator
@@ -17,13 +17,19 @@ The script utilizes the NumPy library to efficiently handle array operations. Th
 
 ## Code
 
-```python
-import numpy as np
+  ```python
+  import numpy as np
+  
+  unit_sold = np.array([[50, 60, 25],
+                        [10, 13, 5],
+                        [40, 70, 52]])
+  
+  price_per_unit = np.array([20, 30, 15])
+  
+  total_sales = unit_sold * price_per_unit
 
-unit_sold = np.array([[50, 60, 25],
-                      [10, 13, 5],
-                      [40, 70, 52]])
 
-price_per_unit = np.array([20, 30, 15])
-
-total_sales = unit_sold * price_per_unit
+## Result
+array([[1000, 1800, 375],
+       [200, 390, 75],
+       [800, 2100, 780]])
