@@ -28,3 +28,9 @@ unit_sold = np.array([[50, 60, 25],
 price_per_unit = np.array([20, 30, 15])
 
 total_sales = unit_sold * price_per_unit
+
+
+## Results
+array([[1000, 1800, 375],
+       [200, 390, 75],
+       [800, 2100, 780]])
